@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        body {
+            background-image: url(https://images.unsplash.com/photo-1614221905934-dabe8c9005cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80);
+
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .navBar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 65px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.322);
+            width: 100%;
+        }
+
+        .logo {
+            padding-left: 30px;
+            color: white;
+            font-size: 2em;
+            font-family: 'Fjalla One', sans-serif;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            justify-content: space-between;
+        }
+
+        ul a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 5px 30px;
+            color: white;
+            font-family: sans-serif;
+            text-shadow: 20px;
+        }
+
+        ul li a {
+            left: 20px;
+        }
+
+        #aboutActive {
+            color: #FF9933;
+        }
+
+        #aboutActive:hover {
+            color: white;
+        }
+
+        ul a:hover {
+            color: #FF9933;
+            border-radius: 20px;
+            animation: 2s;
+        }
+
+        #in {
+            color: #FF9933;
+        }
+
+        #ia {
+            color: #138808;
+        }
+
+        .bgvid {
+            min-height: 100%;
+            min-width: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .content {
+            position: absolute;
+            top: 35%;
+            text-align: center;
+            left: 25%;
+            margin: 20px;
+
+        }
+
+        .content h1 {
+            font-size: 5em;
+            color: white;
+        }
+
+        .btn {
+            padding: 10px 30px;
+            text-transform: uppercase;
+            background-color: #26811f;
+            color: white;
+            border-color: #FF9933;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .content p {
+            color: rgb(255, 255, 255);
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+
+        .content #one {
+            color: white;
+        }
+
+        .content #two {
+            color: white;
+        }
+
+        .content h1 {
+            border: 1px solid rgb(255, 255, 255);
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+        }
+
+        .main {
+            border: 0.1px solid rgba(0, 0, 0, 0.322);
+            height: 100vh;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .area {
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin-top: 150px;
+            width: 1000px;
+            margin-left: 12%;
+            padding: 20px 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: white;
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+        p {
+            margin-top: 20px;
+            color: white;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    {{>header}}
+    <div class="main">
+        <div class="area">
+            <h2>Why Kerala?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis alias odit id deserunt sit numquam
+                dignissimos beatae aliquam quidem non! Quaerat cum itaque aliquam cupiditate maxime, ut totam,
+                voluptatem ea est doloribus repellat repudiandae perspiciatis dolorum eum delectus, minus commodi
+                voluptates corporis excepturi veritatis unde minima optio provident? Tempora, omnis. Ipsam ducimus
+                accusamus, voluptate minima obcaecati, incidunt suscipit nihil eos quisquam at accusantium tenetur,
+                sapiente aliquam id nobis quibusdam illo reprehenderit numquam. Nihil soluta dicta at, ducimus
+                perspiciatis corrupti provident ea est reprehenderit, consequuntur id architecto minima nemo voluptate
+                iste aliquid quo! Cum, minima tempore. Voluptate numquam possimus qui ipsam minus sit corrupti aut ea
+                perspiciatis pariatur cupiditate animi fugit commodi dolor temporibus id aliquid quam quasi voluptatem,
+                enim est. Rerum maiores animi repellendus dolores quod, vel blanditiis tempore dolor aliquam quos odit
+                culpa iure nulla illo corrupti impedit? Quibusdam hic quod, vel fuga nemo iusto eos, voluptatem at
+                voluptatibus iste quam libero doloremque provident qui alias corrupti numquam tenetur sed accusantium
+                atque nulla omnis! Odio, quis. Itaque sit temporibus ipsa quasi incidunt assumenda, dolorem blanditiis
+                nesciunt possimus labore magni eos autem repellendus! Nobis veritatis dignissimos ex quas impedit
+                incidunt facere, est consequatur provident et eaque odio eos quam quasi voluptates. Voluptatem molestias
+                ad, provident unde quam ipsum atque rem? Iure dolores itaque natus ullam hic! Optio repudiandae impedit
+                esse officia natus labore ducimus asperiores blanditiis aliquid obcaecati maxime veniam voluptates,
+                veritatis numquam consequuntur iusto a culpa officiis modi! Nobis labore ad nulla, earum doloremque
+                magnam exercitationem porro explicabo eos voluptatem quidem unde accusantium non dolores, adipisci et
+                nostrum minima eligendi esse molestias deleniti? Magni corporis quod praesentium. Dolore illum eum sunt
+                enim modi nihil repudiandae pariatur, sint consectetur, porro a quae velit? Mollitia, qui in omnis harum
+                deserunt, sit cupiditate quaerat assumenda unde et animi fuga. Officia, suscipit voluptas?</p>
+        </div>
+    </div>
+</body>
+
+</html>

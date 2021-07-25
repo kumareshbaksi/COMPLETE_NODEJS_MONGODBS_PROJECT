@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India</title>
+    <script>src = "https://kit.fontawesome.com/a076d05399.js"</script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(https://images.unsplash.com/photo-1599632740188-8a4f152a8342?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navBar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 65px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.322);
+            width: 100%;
+        }
+
+        .logo {
+            padding-left: 30px;
+            color: white;
+            font-size: 2em;
+            font-family: 'Fjalla One', sans-serif;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            justify-content: space-between;
+        }
+
+        ul a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 5px 30px;
+            color: white;
+            font-family: sans-serif;
+            text-shadow: 20px;
+        }
+
+        ul li a {
+            left: 20px;
+        }
+
+        #homeActive {
+            color: #FF9933;
+        }
+
+        #homeActive:hover {
+            color: white;
+        }
+
+        ul a:hover {
+            color: #FF9933;
+            border-radius: 20px;
+            animation: 2s;
+        }
+
+        #in {
+            color: #FF9933;
+        }
+
+        #ia {
+            color: #138808;
+        }
+
+        .bgvid {
+            min-height: 100%;
+            min-width: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .content {
+            position: absolute;
+            top: 35%;
+            text-align: center;
+            left: 25%;
+            margin: 20px;
+
+        }
+
+        .content h1 {
+            font-size: 5em;
+            color: white;
+        }
+
+        .btn {
+            padding: 10px 30px;
+            text-transform: uppercase;
+            background-color: #26811f;
+            color: white;
+            border-color: #FF9933;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .content p {
+            color: rgb(255, 255, 255);
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+
+        .content #one {
+            color: white;
+        }
+
+        .content #two {
+            color: white;
+        }
+
+        .content h1 {
+            border: 1px solid rgb(255, 255, 255);
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        {{!-- <video src="./kerala video.mp4" autoplay muted loop class="bgvid">
+        </video> --}}
+        {{>header}}
+        <div class="content">
+            <h1> <span id="one">Welcome </span>To <span id="two">Kerala</span></h1>
+            <p>To visit india more deeply contact us as soon as possible, limited packages are there</p>
+            <form action="/contact" method="GET">
+                <button class="btn" name="foo" value="contact">Contact</button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
